@@ -3,8 +3,8 @@
 
 """Basic elements of Snake."""
 
-from testt.snake.base.direc import Direc
-from testt.snake.base.pos import Pos
-from testt.snake.base.point import PointType, Point
-from testt.snake.base.map import Map
-from testt.snake.base.snake import Snake
+from snake.base.direc import Direc
+from snake.base.pos import Pos
+from snake.base.point import PointType, Point
+from snake.base.map import Map
+from snake.base.snake import Snake
