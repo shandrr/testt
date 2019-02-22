@@ -1,0 +1,13 @@
+language: python
+env:
+  matrix:
+    - PYTHON: "C:\\Python35-x64"
+    
+
+ install: "pip install -r requirements.txt"
+  
+  
+script:
+-m pytest -v 
+os:
+  - linux
