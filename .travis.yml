@@ -3,9 +3,12 @@ env:
   matrix:
     - PYTHON: "C:\\Python35-x64"
     
-before_install:
-  
-- pip install requirements.txt
+
+  before_install:
+  - pip install pytest
+  - pip install numpy
+  - pip install matplotlib
+  - sudo apt-get install python-tk
   
 script:
 - "%PYTHON%\\python.exe -m pytest -v --ignore=tests/gui/"
