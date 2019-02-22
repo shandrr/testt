@@ -3,7 +3,7 @@ env:
   matrix:
     - PYTHON: "C:\\Python35-x64"
     
-install:
+before_install:
   
 - pip install requirements.txt
   
