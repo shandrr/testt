@@ -12,5 +12,8 @@ install:
 build: off
 
 test_script:
-- python tests/test_gui.py
-
+- python tests/base/test_direc.py
+- python tests/base/test_map.py
+- python tests/base/test_point.py
+- python tests/base/test_pos.py
+- python tests/base/test_snake.py
