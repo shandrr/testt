@@ -12,5 +12,5 @@ install:
 build: off
 
 test_script:
-- python test_gui.py
+- python tests/test_gui.py
 
