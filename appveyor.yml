@@ -12,4 +12,5 @@ install:
 build: off
 
 test_script:
- pytest -v
+- python test_gui.py
+- python game.py
