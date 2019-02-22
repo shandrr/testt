@@ -11,6 +11,6 @@ env:
   - sudo apt-get install python-tk
   
 script:
-- pytest -v --ignore=tests/gui/
+python tests/base/test_direc.py
 os:
   - linux
