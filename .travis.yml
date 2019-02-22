@@ -4,10 +4,13 @@ env:
     - PYTHON: "C:\\Python35-x64"
     
 
- install: "pip install -r requirements.txt"
-  
+  before_install:
+  - pip install pytest
+  - pip install numpy
+  - pip install matplotlib
+  - sudo apt-get install python-tk
   
 script:
-- pytest -v 
+- pytest -v --ignore=tests/gui/
 os:
   - linux
