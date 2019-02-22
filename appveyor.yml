@@ -13,4 +13,4 @@ build: off
 
 test_script:
 - python test_gui.py
-- python game.py
+
